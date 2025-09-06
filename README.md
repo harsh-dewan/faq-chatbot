@@ -52,23 +52,29 @@ faq-chatbot/
 
 ## 1. Clone repo & install dependencies
 
-git clone https://github.com/harsh-dewan/faq-chatbot.git
-cd faq-chatbot
-pip install -r requirements.txt
+     - git clone https://github.com/harsh-dewan/faq-chatbot.git
+     - cd faq-chatbot
+     - pip install -r requirements.txt
 
 ## 2. Add API key
-Update .env file with API key
-OPENAI_API_KEY=sk-xxxx
+
+     - Update .env file with API key
+     - OPENAI_API_KEY=sk-xxxx
 
 ## 3. Ingest FAQs
-python ingest.py
+
+     - python ingest.py
 
 ## 4. Run FastAPI server
-python -m uvicorn app:app --reload
+
+     - python -m uvicorn app:app --reload
 
 
 
 ## Screenshots & Examples
+
+
+
 
 ## Screenshot showing GET request + returned answer
 
@@ -97,6 +103,10 @@ python -m uvicorn app:app --reload
 
 ## Example 5
 <img width="812" height="535" alt="image" src="https://github.com/user-attachments/assets/cf401582-2b41-4604-89c0-02a13bfeb5fa" />
+
+
+
+
 
 
 
