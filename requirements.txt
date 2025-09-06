@@ -1,0 +1,6 @@
+langchain==0.2.16
+langchain-openai==0.1.22
+langchain-community==0.2.9
+chromadb==0.5.5
+fastapi==0.115.0
+uvicorn==0.30.6

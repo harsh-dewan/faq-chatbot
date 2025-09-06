@@ -1,0 +1,11 @@
+# Ignore vector DB
+db/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
