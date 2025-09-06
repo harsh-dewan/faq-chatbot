@@ -30,12 +30,12 @@ This project demonstrates how real-world AI/ML developers **integrate embeddings
 
 ## Project Structure
 faq-chatbot/
-├── app.py # FastAPI app with /ask endpoint
-├── ingest.py # Ingests FAQs into ChromaDB
-├── faqs.json # FAQ dataset
-├── requirements.txt
-├── .env # API key
-├── db/ # Vector DB (ignored by git)
+- ├── app.py # FastAPI app with /ask endpoint
+- ├── ingest.py # Ingests FAQs into ChromaDB
+- ├── faqs.json # FAQ dataset
+- ├── requirements.txt
+- ├── .env # API key
+- ├── db/ # Vector DB (ignored by git)
 
 
 ---
@@ -70,14 +70,32 @@ python -m uvicorn app:app --reload
 
 ## Screenshots & Examples
 
+## Screenshot showing GET request + returned answer
+
+
+## Example 1
 <img width="858" height="521" alt="image" src="https://github.com/user-attachments/assets/499766e6-f8fe-47ef-a8c1-e747f7b8d162" />
 
+
+
+## Example 2
 <img width="856" height="514" alt="image" src="https://github.com/user-attachments/assets/a72d1ea8-0381-4e21-b38f-e08b9bfae6db" />
 
+
+
+## Example 3
 <img width="869" height="527" alt="image" src="https://github.com/user-attachments/assets/00b646cb-6d2c-4a7a-9aeb-08a6e879b777" />
 
+
+
+
+## Example 4
 <img width="868" height="493" alt="image" src="https://github.com/user-attachments/assets/e2f1352c-c7cc-4acd-90d9-515c0b405333" />
 
+
+
+
+## Example 5
 <img width="812" height="535" alt="image" src="https://github.com/user-attachments/assets/cf401582-2b41-4604-89c0-02a13bfeb5fa" />
 
 
